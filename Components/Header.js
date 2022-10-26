@@ -62,17 +62,17 @@ class Header extends HTMLElement {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Editar
+                Consultar/Editar
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="/pages/editar/funcionario/">Funcionário</a>
+                  <a class="dropdown-item" href="/pages/consultar_editar/funcionario/">Funcionário</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/pages/editar/hospital/">Hospital</a>
+                  <a class="dropdown-item" href="/pages/consultar_editar/hospital/">Hospital</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/pages/editar/paciente/">Paciente</a>
+                  <a class="dropdown-item" href="/pages/consultar_editar/paciente/">Paciente</a>
                 </li>
               </ul>
             </li>
