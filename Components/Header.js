@@ -39,22 +39,44 @@ class Header extends HTMLElement {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Cadastro
+                Cadastrar
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href="/pages/funcionario/"
-                    >Funcionário</a
-                  >
+                  <a class="dropdown-item" href="/pages/cadastrar/funcionario/">Funcionário</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/pages/hospital/">Hospital</a>
+                  <a class="dropdown-item" href="/pages/cadastrar/hospital/">Hospital</a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="/pages/paciente/">Paciente</a>
+                  <a class="dropdown-item" href="/pages/cadastrar/paciente/">Paciente</a>
                 </li>
               </ul>
             </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Editar
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/pages/editar/funcionario/">Funcionário</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pages/editar/hospital/">Hospital</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pages/editar/paciente/">Paciente</a>
+                </li>
+              </ul>
+            </li>
+
           </ul>
         </div>
       </div>
