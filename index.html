@@ -15,62 +15,77 @@
 
     <title>Document</title>
   </head>
-  <body>
+  <body style="text-align: center;">
     <header-component></header-component>
-  <!--  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="menu">
-      <div class="container-fluid">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarScroll"
-          aria-controls="navbarScroll"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-          <ul
-            class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="--bs-scroll-height: 100px"
-          >
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html"
-                >Inicio</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sobre</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Cadastro
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="./pages/funcionario/"
-                    >Funcionário</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./pages/hospital/">Hospital</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="./pages/paciente/">Paciente</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
+  
+    <!--CARD DE ATIVIDADE EM TEMPO REAL-->
+    <div class="card container mt-5 mx-auto" style="padding: 50px; text-align: center;">
+      <h4 style="margin-bottom: 10px;">Atividade em tempo real</h4>
+      <select class="form-select" style="margin-bottom: 10px;">
+        <option selected="">Hospital A</option>
+        <option value="1">Hospital B</option>
+        <option value="1">Hospital C</option>
+        <option value="2">Hospital D</option>
+      </select>
+
+      <div style="overflow-x:auto; overflow-y:scroll; height: 60vh; background-color: white;">
+        <table class="table table-bordered table-condensed table-hover table-responsive">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">Sala</th>
+                <th scope="col">Andar</th>
+                <th scope="col">Quantidade Ideal de Pacientes</th>
+                <th scope="col">Quantidade de Pacientes Detectados</th>
+                <th scope="col">Quantidade de Acompanhantes Detectados</th>
+                <th scope="col">Quantidade de Médicos Detectados</th>
+                <th scope="col">Quantidade de Enfermeiros Detectados</th>
+                <th scope="col">Ultima Atualização</th>
+                <th scope="col"> </th>
+                <th scope="col"> </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">----</td>
+                <td>----</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>----</td>
+                <td><button class="btn btn-primary">Detalhes</button></td>
+                <td><button class="btn btn-primary">Imagens</button></td>
+              </tr>
+              <tr>
+                <th scope="row">----</td>
+                <td>----</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>----</td>
+                <td><button class="btn btn-primary">Detalhes</button></td>
+                <td><button class="btn btn-primary">Imagens</button></td>
+              </tr>
+              <tr>
+                <th scope="row">----</td>
+                <td>----</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>----</td>
+                <td><button class="btn btn-primary">Detalhes</button></td>
+                <td><button class="btn btn-primary">Imagens</button></td>
+              </tr>
+            </tbody>
+        </table>
       </div>
-    </nav>-->
+
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

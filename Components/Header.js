@@ -24,9 +24,7 @@ class Header extends HTMLElement {
             style="--bs-scroll-height: 100px"
           >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html"
-                >Inicio</a
-              >
+              <a class="nav-link active" aria-current="page" href="/index.html">Atividade</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Sobre</a>
